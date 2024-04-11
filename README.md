@@ -1,4 +1,4 @@
-# node-zklib
+# zkteco-lib
 
 ## install 
 
