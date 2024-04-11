@@ -1,18 +1,17 @@
 {
   "name": "zkteco-lib",
   "version": "1.0.0",
-  "description": "Module to connect to biometrix device",
+  "description": "zkteco-lib module to connect biometric devices with TCP and UDP protocols developed by Ram Krishna - Bithost Private Limited",
   "main": "zklib.js",
   "scripts": {
     "test": "node test"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/ramkrishna70/zkteco-lib.git"
+    "url": "git+https://github.com/ramkrishna70/zkteco-lib.git"
   },
   "keywords": [
     "zkteco",
-    "zklib",
     "zkteco-lib",
     "attendance-device",
     "attendance",
@@ -20,19 +19,13 @@
     "bithost-zklib",
     "bithost-device-zklib"
   ],
-  "author": "Ram Krishna",
+  "author": "Ram Krishna - Bithost Private Limited <bithostin@gmail.com>",
   "license": "AGPL-3.0",
   "bugs": {
     "url": "https://github.com/ramkrishna70/zkteco-lib/issues"
   },
-  "homepage": "https://github.com/ramkrishna70/zkteco-lib/issues#readme",
-  "dependencies": {
-    "node-zklib": "^1.0.0"
+  "homepage": "https://github.com/ramkrishna70/zkteco-lib#readme",
+  "publishConfig": {
+    "@ramkrishna70:registry": "https://npm.pkg.github.com"
   }
 }
-
-
-
-
-const url = `${env.NEXT_AUT_URL}/auth/login`
-costfetch(url)
