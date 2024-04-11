@@ -1,6 +1,6 @@
 {
   "name": "zkteco-lib",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "zkteco-lib module to connect biometric devices with TCP and UDP protocols developed by Ram Krishna - Bithost Private Limited",
   "main": "zklib.js",
   "scripts": {
