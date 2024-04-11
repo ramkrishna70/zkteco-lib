@@ -1,17 +1,18 @@
 {
   "name": "zkteco-lib",
-  "version": "1.0.2",
-  "description": "zkteco-lib module to connect biometric devices with TCP and UDP protocols developed by Ram Krishna - Bithost Private Limited",
+  "version": "1.0.4",
+  "description": "zkteco-lib Module to connect to biometrix device",
   "main": "zklib.js",
   "scripts": {
     "test": "node test"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ramkrishna70/zkteco-lib.git"
+    "url": "https://github.com/ramkrishna70/zkteco-lib.git"
   },
   "keywords": [
     "zkteco",
+    "zklib",
     "zkteco-lib",
     "attendance-device",
     "attendance",
@@ -19,12 +20,12 @@
     "bithost-zklib",
     "bithost-device-zklib"
   ],
-  "author": "Ram Krishna - Bithost Private Limited <bithostin@gmail.com>",
+  "author": "Ram Krishna Bithost Private Limited <bithostin@gmail.com>",
   "license": "AGPL-3.0",
   "bugs": {
     "url": "https://github.com/ramkrishna70/zkteco-lib/issues"
   },
-  "homepage": "https://github.com/ramkrishna70/zkteco-lib#readme",
+  "homepage": "https://github.com/ramkrishna70/zkteco-lib/issues#readme",
   "publishConfig": {
     "@ramkrishna70:registry": "https://npm.pkg.github.com"
   }
