@@ -21,6 +21,8 @@ jobs:
           node-version: 16
           registry-url: https://npm.pkg.github.com/
       - run: echo ${{secrets.NPM_AUTH_TOKEN}}
+      - run: rm -rf .github
+      - run: rm .npmrc
       - run: npm publish
         env:
           NODE_AUTH_TOKEN: ${{secrets.NPM_AUTH_TOKEN}}
