@@ -1,6 +1,6 @@
 {
   "name": "zkteco-lib",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "zkteco-lib Module to connect to biometrix device",
   "main": "zklib.js",
   "scripts": {
